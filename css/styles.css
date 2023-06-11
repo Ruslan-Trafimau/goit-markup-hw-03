@@ -83,13 +83,13 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 0 24px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 0 24px;
 }
 
 .header-container {
