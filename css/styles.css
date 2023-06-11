@@ -64,6 +64,7 @@ img {
   text-transform: uppercase;
   align-items: center;
   margin-right: 76px;
+  padding: 0 24px;
 }
 
 .header-logo .studio {
@@ -124,6 +125,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
+  padding: 0 24px;
 }
 
 .header-links:hover {
