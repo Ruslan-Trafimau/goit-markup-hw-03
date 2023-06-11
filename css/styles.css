@@ -168,6 +168,9 @@ padding: 188px 472px 292px 472px;
 
 
 .hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -177,6 +180,7 @@ padding: 188px 472px 292px 472px;
   color: var(--white-color);
   background-color: var(--blue-color);
   cursor: pointer;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 margin-left: 164px;
