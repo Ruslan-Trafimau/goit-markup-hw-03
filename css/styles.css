@@ -13,12 +13,44 @@ body {
   background-color: var(--white-color);
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+.adress-list {
+    list-style: none;
+      display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-logo {
@@ -29,11 +61,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--blue-color);
   text-transform: uppercase;
+  align-items: center;
 }
 
 .header-logo .studio {
   color: var(--second-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  margin-right: 76px;
 }
 
 .header-menu {
@@ -43,6 +78,19 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--second-color);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-container {
+  display: flex;
 }
 
 .header-menu:hover {
@@ -61,6 +109,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
+  
 }
 
 .header-links {
@@ -94,7 +143,12 @@ body {
   background: var(--second-color);
 }
 
-.hero {
+.hero-container {
+padding: 188px 472px 292px 472px;
+
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -102,10 +156,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
   background: var(--second-color);
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 
-.btn-index {
+.hero-btn {
+  padding: 16px 32px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -114,9 +171,12 @@ body {
   color: var(--white-color);
   background-color: var(--blue-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin-left: 164px;
 }
 
-.btn-index:hover {
+.hero-btn:hover {
   font-family: inherit
   font-weight: 600;
   font-size: 16px;
@@ -126,7 +186,7 @@ body {
   background-color: #404BBF;
 }
 
-.btn-index:focus {
+.hero-btn:focus {
   font-family: inherit
   font-weight: 600;
   font-size: 16px;
@@ -169,12 +229,17 @@ body {
 }
 
 .benefits {
+padding-top: 120px;
 }
 
 .benefits-list {
+  display: flex;
+  gap: 24px;
+
 }
 
 .benefits-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-subtitle {
@@ -182,7 +247,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--second-color)
+  color: var(--second-color);
+  margin-bottom: 8px;
 }
 
 .benefits-item-text {
@@ -192,10 +258,21 @@ body {
 }
 
 .projects {
-
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
-.section-h_two {
+.projects-list {
+  display: flex;
+  gap: 24px;
+}
+
+.projects-item {
+  width: calc((100% - 48px) / 3);
+  border: 1px solid #E7E9FC;
+}
+
+.projects-h_two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -203,6 +280,19 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--second-color);
+  padding-bottom: 72px;
+}
+
+.our-team-h_two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--second-color);
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .section-h_three {
@@ -227,11 +317,37 @@ body {
 
 .our-team-images-bkg {
   background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-images-bkg {
-  background-color: var(--white-color);
+.our-team-images {
+    display: flex;
+  gap: 24px;
+  background-color: var(--dark-white-color);
+  padding-bottom: 120px;
 }
+
+.our-team-h_three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.our-team-p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding-bottom: 32px;
+}
+
+
 
 .section-portf-h_two {
   font-weight: 500;
@@ -271,8 +387,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-white-color);
   background: var(--second-color);
+  padding-top: 17.5px;
+  padding-bottom: 100px;
+  max-width: 264px;
+
 }
 
-.footer-bkg {
+.footer {
   background: var(--second-color);
+  padding-top: 101.5px;
 }
