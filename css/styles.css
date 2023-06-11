@@ -388,6 +388,7 @@ img {
 }
 
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -396,6 +397,7 @@ img {
   color: var(--blue-color);
   background: var(--second-color);
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-logo .studio {
@@ -408,12 +410,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-white-color);
   background: var(--second-color);
-  padding-top: 17.5px;
   padding-bottom: 100px;
   max-width: 264px;
 }
 
 .footer {
   background: var(--second-color);
-  padding-top: 101.5px;
+  padding: 100px 0;
 }
