@@ -301,7 +301,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--second-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-team-h_two {
