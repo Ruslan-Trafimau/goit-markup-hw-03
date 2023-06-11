@@ -5,6 +5,7 @@
   --dark-blue-color: #404bbf;
   --white-color: #ffffff;
   --dark-white-color: #f4f4fd;
+  --gray-color: #e7e9fc;
 }
 
 body {
@@ -229,6 +230,9 @@ img {
   color: var(--blue-color);
   background-color: var(--dark-white-color);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--gray-color);
+  border-radius: 4px;
 }
 
 .btn-portfolio:hover {
@@ -239,6 +243,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .btn-portfolio:focus {
@@ -249,6 +254,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .benefits {
@@ -372,6 +378,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.section-portf {
+  padding: 96px 0 120px 0;
+}
+
 .section-portf-h_two {
   font-weight: 500;
   font-size: 20px;
@@ -385,6 +395,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+}
+
+.portf-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -410,7 +427,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-white-color);
   background: var(--second-color);
-  padding-bottom: 100px;
   max-width: 264px;
 }
 
