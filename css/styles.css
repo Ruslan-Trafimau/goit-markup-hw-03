@@ -1,6 +1,6 @@
 :root {
   --primary-color: #434455;
-  --second-color:#2e2f42;
+  --second-color: #2e2f42;
   --blue-color: #4d5ae5;
   --dark-blue-color: #404bbf;
   --white-color: #ffffff;
@@ -13,7 +13,13 @@ body {
   background-color: var(--white-color);
 }
 
-p,h1,h2,h3,h4,h5,h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -44,15 +50,15 @@ img {
 }
 
 .adress-list {
-    list-style: none;
-      display: flex;
+  list-style: none;
+  display: flex;
   align-items: center;
   gap: 40px;
 }
 
 .header {
   padding: 24px 0;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -84,7 +90,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  
 }
 
 .header-nav {
@@ -105,7 +110,6 @@ img {
   color: var(--dark-blue-color);
 }
 
-
 .header-adress {
   font-style: normal;
   font-size: 16px;
@@ -113,7 +117,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
-  
 }
 
 .header-links {
@@ -149,8 +152,7 @@ img {
 }
 
 .hero-container {
-padding: 188px 472px 292px 472px;
-
+  padding: 188px 472px 292px 472px;
 }
 
 .hero-title {
@@ -164,7 +166,6 @@ padding: 188px 472px 292px 472px;
   max-width: 496px;
   margin-bottom: 48px;
 }
-
 
 .hero-btn {
   display: block;
@@ -181,30 +182,29 @@ padding: 188px 472px 292px 472px;
   cursor: pointer;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-margin-left: 164px;
+  border-radius: 4px;
+  margin-left: 164px;
 }
 
 .hero-btn:hover {
-  font-family: inherit
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .hero-btn:focus {
-  font-family: inherit
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
-
 
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
@@ -218,33 +218,32 @@ margin-left: 164px;
 }
 
 .btn-portfolio:hover {
-  font-family: inherit
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .btn-portfolio:focus {
-  font-family: inherit
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .benefits {
-padding-top: 120px;
+  padding: 120px 0;
 }
 
 .benefits-list {
   display: flex;
   gap: 24px;
-
 }
 
 .benefits-item {
@@ -267,8 +266,7 @@ padding-top: 120px;
 }
 
 .projects {
-padding-top: 120px;
-padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .projects-list {
@@ -278,7 +276,7 @@ padding-bottom: 120px;
 
 .projects-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .projects-h_two {
@@ -326,12 +324,13 @@ padding-bottom: 120px;
 
 .our-team-images-bkg {
   background-color: var(--white-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-images {
-    display: flex;
+  display: flex;
   gap: 24px;
   background-color: var(--dark-white-color);
   padding-bottom: 120px;
@@ -356,8 +355,6 @@ border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
 }
 
-
-
 .section-portf-h_two {
   font-weight: 500;
   font-size: 20px;
@@ -372,7 +369,6 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
-
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -389,7 +385,6 @@ border-radius: 0px 0px 4px 4px;
   color: var(--dark-white-color);
 }
 
-
 .footer-p {
   font-size: 16px;
   line-height: 1.5;
@@ -399,7 +394,6 @@ border-radius: 0px 0px 4px 4px;
   padding-top: 17.5px;
   padding-bottom: 100px;
   max-width: 264px;
-
 }
 
 .footer {
