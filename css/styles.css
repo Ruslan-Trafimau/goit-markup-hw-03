@@ -51,6 +51,7 @@ img {
 }
 
 .header {
+  padding: 24px 0;
   border-bottom: 1px solid #E7E9FC;
 }
 
@@ -64,7 +65,6 @@ img {
   text-transform: uppercase;
   align-items: center;
   margin-right: 76px;
-  padding: 0 24px;
 }
 
 .header-logo .studio {
@@ -84,7 +84,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 0 24px;
+  
 }
 
 .header-nav {
@@ -94,8 +94,6 @@ img {
 }
 
 .header-container {
-    padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
 }
 
@@ -125,7 +123,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
-  padding: 0 24px;
 }
 
 .header-links:hover {
