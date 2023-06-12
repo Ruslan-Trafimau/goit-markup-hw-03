@@ -292,10 +292,10 @@ img {
 .projects-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 .projects-item {
-  flex-basis: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
 }
 
